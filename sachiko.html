@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style/sachiko.css">
+    <title>BAP SACHIKO</title>
+    <script>
+        function clickCounter() {
+            if (typeof(Storage) !== "undefined") {
+                if (localStorage.clickcount) {
+                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                } else {
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("count").innerHTML = "Total times bapped: " + localStorage.clickcount;
+            } else {
+                document.getElementById("count").innerHTML = "Note: your browser does not support the click counter.";
+            }
+        }
+    </script>
+  </head>
+
+  <body>
+    <div class="sachiko" onclick="clickCounter()"></div>
+    <div id="count">Click sachiko to bap.</div>
+  </body>
+
+</html>
+

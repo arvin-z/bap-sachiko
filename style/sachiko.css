@@ -1,0 +1,23 @@
+.sachiko {
+    width: 130px;
+    height: 195px;
+    background: url("https://cdn.discordapp.com/attachments/587112213861498903/612151857888100354/latest.png") no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    display: inline-block;
+  }
+  
+  .sachiko:active {
+    width: 130px;
+    height: 195px;
+    background: url("https://cdn.discordapp.com/attachments/587112213861498903/612151874682093607/1490268397609.png") no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    display: inline-block;
+  }
+  
+  
